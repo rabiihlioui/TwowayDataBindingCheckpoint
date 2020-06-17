@@ -28,8 +28,4 @@ export class FormComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSubmit(f: NgForm) {
-    console.log(this.pers.firstName);
-  }
-
 }
